@@ -36,7 +36,7 @@ $(document).ready(function() {
         var gifTopic = $(this).attr("data-topic");;
 
         $(".gifSection").empty();
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q="+gifTopic+"&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q="+gifTopic+"&api_key=dc6zaTOxFJmzC&limit=10";
 
         $.ajax({
           url: queryURL,
